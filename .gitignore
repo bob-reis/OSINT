@@ -1,0 +1,5 @@
+# Ignore agent guidance files
+AGENTS.md
+CLAUDE.md
+.claude/
+

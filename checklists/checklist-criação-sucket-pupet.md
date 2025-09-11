@@ -1,11 +1,17 @@
 # Checklist — Criação de Persona (Sock Puppet) para OSINT
 
+> Uso exclusivamente defensivo, educacional e de pesquisa autorizada. Respeite leis locais e Termos de Serviço das plataformas.
+
 ## 1. Preparação Inicial
 - [ ] Definir objetivo da persona (ex: infiltração em grupo X, observação de rede social Y).  
 - [ ] Escolher nome, data de nascimento e histórico coerente (usar geradores de identidade/fake ID).  
-- [ ] Criar e-mail seguro (Proton, Tutanota, RiseUp ou temporários com consistência).  
-- [ ] Configurar VM/container dedicado (sem vínculo com seu ambiente real).  
-- [ ] Aplicar VPN/Tor + timezone compatível com a região da persona.  
+- [ ] Criar e-mail seguro (Proton, Tutanota, RiseUp), alinhado ao país da persona quando fizer sentido.  
+- [ ] Configurar VM/container dedicado — idealmente uma VM por persona; nunca usar o SO pessoal.  
+- [ ] Ajustar idioma/teclado/timezone/localização da VM conforme a persona.  
+- [ ] Navegador “limpo” (sem extensões pessoais); minimizar fingerprint.  
+- [ ] Aplicar VPN estável; considerar Tor somente se crível para o contexto.  
+- [ ] Definir gerenciador de senhas e 2FA compatíveis com o isolamento.  
+- [ ] Iniciar dossiê da persona (credenciais, datas, padrões) em `docs/modelos/dossie-investigativo.md`.  
 
 ---
 
@@ -21,8 +27,9 @@
 
 ## 3. Identidade Digital
 - [ ] Criar redes sociais coerentes (Facebook, LinkedIn, Instagram, Twitter/X).  
-- [ ] Gerar fotos falsas (AI, ThisPersonDoesNotExist, Stable Diffusion).  
-- [ ] Postar conteúdo que “envelheça” a conta (curtidas, comentários, seguidores).  
+- [ ] Verificar nomes/aliases com NAMINT e disponibilidade de @usuários.  
+- [ ] Gerar fotos falsas (IA/geradores) ou usar objetos/abstratas; sempre remover EXIF.  
+- [ ] Aquecer a conta gradualmente (curtidas/comentários/seguidas ao longo de dias/semanas).  
 - [ ] Interagir em fóruns/grupos condizentes com o perfil.  
 - [ ] Usar padrões de escrita e horários compatíveis com a persona.  
 
@@ -30,19 +37,18 @@
 
 ## 4. Comunicação
 - [ ] Número descartável (VoIP, Burner SIM, aplicativos de segundo número).  
-- [ ] Configurar apps de mensagem isolados (Signal, Telegram, Wickr).  
+- [ ] Ciente: recuperação de senha pode exibir parte do número (indício de país).  
+- [ ] Configurar apps de mensagem isolados (Signal, Telegram, Wickr) sem sincronizar contatos.  
 - [ ] Ajustar idioma e estilo de comunicação.  
 - [ ] Nunca cruzar sock puppet com contatos reais.  
 
 ---
 
-## 5. Movimentação Financeira
-- [ ] Criar **carteira BTC (pública)** para persona.  
-- [ ] Criar **carteira Monero (XMR)** para realismo em ambientes da dark web.  
-- [ ] Simular histórico de transações (pode usar faucet/testnet ou pequenas quantias).  
-- [ ] Preparar **cartão pré-pago** (gift card Amazon, cartões Visa/Master recarregáveis).  
-- [ ] Definir provedores que aceitam cripto sem KYC para aquisição de VPS/serviços.  
-- [ ] Documentar na persona “uso” de serviços de pagamento alternativos (ex: “prefiro XMR a BTC”).  
+## 5. Movimentação Financeira (opcional e contextual)
+- [ ] Criar carteiras apenas quando necessário ao cenário/credibilidade.  
+- [ ] Simular histórico com cautela (testnet/faucets ou quantias mínimas).  
+- [ ] Preferir soluções legais e conformes; evite qualquer violação de KYC/AML.  
+- [ ] Documentar claramente a finalidade e o contexto no dossiê.  
 
 ---
 
@@ -67,12 +73,15 @@
 - [ ] Revisar consistência de todas as informações.  
 - [ ] Sanitizar prints e arquivos antes de armazenar.  
 - [ ] Usar convenção de nomes neutros para evidências (`case123_img01.png`).  
+- [ ] Minimizar fingerprint do navegador (idioma/UA/fusos/fontes coerentes).  
+- [ ] Manter segregação de infra (VM, contas, telefones dedicados).  
 - [ ] Revisar se a persona sobrevive a uma análise de OSINT básica.  
 
 ---
 
 ## 9. Pós-Operação
 - [ ] Encerrar conexões (VPN/Tor).  
-- [ ] Deletar ou arquivar contas descartáveis.  
+- [ ] Desativar recuperações desnecessárias (e‑mail/telefone) e revisar segurança.  
+- [ ] Deletar ou arquivar contas descartáveis conforme política do caso.  
 - [ ] Apagar logs/snapshots de VM se não forem necessários.  
 - [ ] Guardar relatório e cadeia de custódia de forma segura.  
