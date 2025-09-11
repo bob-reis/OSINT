@@ -3,7 +3,9 @@
 Repositório de documentação e treinamento focado em OSINT para fins defensivos, educacionais e de pesquisa autorizada. Todo o conteúdo deve respeitar leis locais e os Termos de Serviço das plataformas analisadas.
 
 ## Navegação Rápida
-- Guia: [Criação de Fantoche (Sock Puppet)](docs/Processos/criacao-de-fantoche-sock-puppet.md)
+- Guias:
+  - [Criação de Fantoche (Sock Puppet)](docs/Processos/criacao-de-fantoche-sock-puppet.md)
+  - [OSINT no Telegram — Deanonimização e Busca](docs/Processos/Investigativos/osint-telegram-deanonimizacao-e-busca.md)
 - Checklists:
   - [OPSEC](checklists/checklist-opsec.md)
   - [Criação de Persona (Sock Puppet)](checklists/checklist-criação-sucket-pupet.md)
@@ -28,4 +30,3 @@ Repositório de documentação e treinamento focado em OSINT para fins defensivo
 
 ## Aviso Ético
 Conteúdo destinado exclusivamente a operações defensivas, educação e pesquisa autorizada. Não contribua com material que facilite uso malicioso ou viole privacidade/legislação.
-
