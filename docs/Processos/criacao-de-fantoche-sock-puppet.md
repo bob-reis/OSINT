@@ -56,9 +56,8 @@
 - Faça “health checks” periódicos: a persona resiste a uma busca OSINT básica?
 
 ## Relacionados neste repositório
-- Checklist de criação: `checklists/checklist-criação-sucket-pupet.md`
+- Checklist de criação: `checklists/checklist-criacao-sock-puppet.md`
 - Template de dossiê investigativo: `docs/modelos/dossie-investigativo.md`
-- Padrões e ética: `CLAUDE.md`
 
 ## Resumo
 Fantoches bem‑construídos imitam perfis comuns, com identidade consistente, sinais locais, interesses plausíveis e atividade gradual. O pilar é o isolamento operacional absoluto: nada conecta a persona a você.

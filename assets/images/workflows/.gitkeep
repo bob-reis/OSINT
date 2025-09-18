@@ -1,0 +1,12 @@
+# Diretório de Imagens dos Workflows
+
+Este diretório contém as imagens dos fluxogramas de workflows OSINT:
+
+- `domain-name.webp` - Fluxograma para investigação a partir de domínio
+- `email.webp` - Fluxograma para investigação a partir de email
+- `location.webp` - Fluxograma para investigação a partir de localização
+- `realname.webp` - Fluxograma para investigação a partir de nome real
+- `telefone.webp` - Fluxograma para investigação a partir de telefone
+- `username.webp` - Fluxograma para investigação a partir de username
+
+As imagens complementam os workflows textuais definidos em `/docs/Processos/Investigativos/workflows.md`.
