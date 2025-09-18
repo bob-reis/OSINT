@@ -1,15 +1,188 @@
 # OSINT Workflows (repo privado)
 
-Guia visual de fluxos OSINT para **Domínio, E-mail, Localização, Nome Real, Telefone e Username**.  
+Guia visual de fluxos OSINT para **Google Dorks, Domínio, E-mail, Localização, Nome Real, Telefone e Username**.
 Cada diagrama foi otimizado para leitura no GitHub (vertical e compacto).
 
+> **✨ Novo**: Adicionado fluxo completo para **Google Dorks** com 7 categorias de busca e workflow de disclosure responsável.
+
 ## Índice
+- [Fluxo: Google Dorks](#fluxo-google-dorks) ⭐ **NOVO!**
 - [Fluxo: Domain Name](#fluxo-domain-name)
 - [Fluxo: Email Address](#fluxo-email-address)
 - [Fluxo: Location](#fluxo-location)
 - [Fluxo: Real Name](#fluxo-real-name)
 - [Fluxo: Telephone](#fluxo-telephone)
 - [Fluxo: Username](#fluxo-username)
+
+---
+
+## Fluxo: Google Dorks
+[🔝 voltar ao índice](#índice)
+
+```mermaid
+flowchart TB
+    A["🎯 Alvo Definido<br/>(Domínio/Empresa)"]
+
+    %% Preparação
+    subgraph S1 ["🛡️ Preparação OPSEC"]
+        B1["VPN/Tor Ativo"]
+        B2["VM Isolada"]
+        B3["Autorização Obtida"]
+        B4["Escopo Definido"]
+    end
+
+    %% Categorias de Dorks
+    subgraph S2 ["📁 Arquivos de Configuração"]
+        C1["site:target.com ext:conf"]
+        C2["site:target.com ext:env"]
+        C3["site:target.com ext:ini"]
+        C4["inurl:config.php"]
+        C5["inurl:wp-config.php"]
+    end
+
+    subgraph S3 ["💾 Backups & Databases"]
+        D1["site:target.com ext:bak"]
+        D2["site:target.com ext:backup"]
+        D3["site:target.com ext:sql"]
+        D4["inurl:backup.zip"]
+        D5["inurl:dump.sql"]
+    end
+
+    subgraph S4 ["🔐 Painéis Admin"]
+        E1["site:target.com inurl:admin"]
+        E2["site:target.com inurl:login"]
+        E3["intitle:'Admin Panel'"]
+        E4["inurl:wp-admin"]
+        E5["inurl:cpanel"]
+    end
+
+    subgraph S5 ["🌐 APIs & Endpoints"]
+        F1["site:target.com inurl:api"]
+        F2["site:target.com inurl:rest"]
+        F3["site:target.com inurl:graphql"]
+        F4["inurl:/v1/ | inurl:/v2/"]
+        F5["inurl:swagger"]
+    end
+
+    subgraph S6 ["🔑 Credenciais & Secrets"]
+        G1["site:target.com intext:password"]
+        G2["intext:api_key"]
+        G3["intext:aws_access_key"]
+        G4["intext:github_token"]
+        G5["filetype:env SECRET"]
+    end
+
+    subgraph S7 ["📋 Documentos Sensíveis"]
+        H1["site:target.com ext:pdf"]
+        H2["site:target.com ext:docx"]
+        H3["intext:'confidencial'"]
+        H4["ext:xls password"]
+        H5["filetype:log"]
+    end
+
+    %% Análise e Validação
+    subgraph S8 ["🔍 Análise de Resultados"]
+        I1["Filtrar Falsos Positivos"]
+        I2["Validar Exposições"]
+        I3["Classificar Criticidade"]
+        I4["Documentar Achados"]
+    end
+
+    %% Ações
+    subgraph S9 ["⚡ Ações Responsáveis"]
+        J1["Disclosure Responsável"]
+        J2["Relatório Técnico"]
+        J3["Evidências Censuradas"]
+        J4["Timeline de Correção"]
+    end
+
+    %% Fluxo principal
+    A --> B1
+    A --> B2
+    A --> B3
+    A --> B4
+
+    B1 --> C1
+    B2 --> D1
+    B3 --> E1
+    B4 --> F1
+
+    C1 --> C2
+    C2 --> C3
+    C3 --> C4
+    C4 --> C5
+
+    D1 --> D2
+    D2 --> D3
+    D3 --> D4
+    D4 --> D5
+
+    E1 --> E2
+    E2 --> E3
+    E3 --> E4
+    E4 --> E5
+
+    F1 --> F2
+    F2 --> F3
+    F3 --> F4
+    F4 --> F5
+
+    G1 --> G2
+    G2 --> G3
+    G3 --> G4
+    G4 --> G5
+
+    H1 --> H2
+    H2 --> H3
+    H3 --> H4
+    H4 --> H5
+
+    %% Convergência para análise
+    C5 --> I1
+    D5 --> I1
+    E5 --> I2
+    F5 --> I2
+    G5 --> I3
+    H5 --> I3
+
+    I1 --> I4
+    I2 --> I4
+    I3 --> I4
+
+    I4 --> J1
+    J1 --> J2
+    J2 --> J3
+    J3 --> J4
+
+    %% Especialização por CMS
+    E4 --> WP["WordPress Dorks"]
+    WP --> WP1["inurl:wp-content/"]
+    WP --> WP2["inurl:wp-includes/"]
+    WP --> WP3["filetype:sql wp-content"]
+
+    %% Cloud & Infra
+    G3 --> AWS["AWS Secrets"]
+    AWS --> AWS1["s3.amazonaws.com"]
+    AWS --> AWS2["intext:bucket"]
+    AWS --> AWS3["filetype:json aws"]
+```
+
+**📖 Guia de Uso do Fluxo:**
+
+1. **🛡️ Preparação OPSEC**: Sempre configure ambiente seguro antes de iniciar
+2. **🎯 Definição de Escopo**: Use `site:target.com` para manter foco
+3. **📂 Execução Sistemática**: Percorra cada categoria metodicamente
+4. **🔍 Validação**: Confirme exposições antes de relatar
+5. **⚖️ Disclosure Ético**: Reporte vulnerabilidades responsavelmente
+
+**🚨 Lembretes Importantes:**
+- ✅ Sempre obtenha autorização por escrito
+- ✅ Mantenha logs de atividades
+- ✅ Censure dados sensíveis em evidências
+- ❌ Nunca acesse sistemas sem permissão
+- ❌ Não baixe dados pessoais/confidenciais
+
+**📚 Referência Completa**: [Google Dorks - Guia Completo](google-dorks-guia-completo.md)
 
 ---
 
@@ -110,7 +283,18 @@ flowchart TB
     E --> F
     F --> H
     T --> AI["Small SEO Tools"]
+
+    %% Integração com Google Dorks
+    A --> GD["🔍 Google Dorks"]
+    GD --> GD1["site:domain.com ext:conf"]
+    GD --> GD2["site:domain.com inurl:admin"]
+    GD --> GD3["site:domain.com ext:bak"]
+    GD1 --> U
+    GD2 --> E
+    GD3 --> AB
 ```
+
+**💡 Dica**: Para uma investigação mais completa do domínio, use também o [Fluxo: Google Dorks](#fluxo-google-dorks) com foco específico no `site:dominio.com`.
 
 ---
 
