@@ -14,6 +14,7 @@ Tutorial abrangente sobre Google Dorks para OSINT com:
 
 ### 📋 **Recursos Essenciais**
 - **[Workflows Visuais](docs/Processos/Investigativos/workflows.md)** - 7 fluxos investigativos com diagramas Mermaid
+- **[POI - Reconhecimento Profundo](docs/Processos/Investigativos/A-Partir-de-uma-Pessoa-de-Interesse.md)** - Processo completo para perfis de interesse
 - **[Criação de Sock Puppet](docs/Processos/criacao-de-fantoche-sock-puppet.md)** - Personas para investigação
 - **[OSINT no Telegram](docs/Processos/Investigativos/osint-telegram-deanonimizacao-e-busca.md)** - Deanonimização e busca
 - **[Checklist OPSEC](checklists/checklist-opsec.md)** - Segurança operacional
@@ -38,6 +39,7 @@ Tutorial abrangente sobre Google Dorks para OSINT com:
   - [A partir de Email](docs/Processos/Investigativos/A-Partir-de-um-Email.md)
   - [A partir de Localização](docs/Processos/Investigativos/A-Partir-de-uma-Localizacao.md)
   - [A partir de Nome Real](docs/Processos/Investigativos/A-Partir-de-um-Nome-Real.md)
+  - [A partir de Pessoa de Interesse (POI)](docs/Processos/Investigativos/A-Partir-de-uma-Pessoa-de-Interesse.md)
   - [A partir de Telefone](docs/Processos/Investigativos/A-Partir-de-um-Telefone.md)
   - [A partir de Username](docs/Processos/Investigativos/A-Partir-de-um-Username.md)
 
