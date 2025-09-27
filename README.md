@@ -13,7 +13,8 @@ Tutorial abrangente sobre Google Dorks para OSINT com:
 - **Aspectos legais e éticos** detalhados
 
 ### 📋 **Recursos Essenciais**
-- **[Workflows Visuais](docs/Processos/Investigativos/workflows.md)** - 7 fluxos investigativos com diagramas Mermaid
+- **[Workflows Visuais](docs/Processos/Investigativos/workflows.md)** - 8 fluxos investigativos com diagramas Mermaid ⭐ **ATUALIZADO!**
+- **[🧅 Diretório Recursos Onion](docs/Processos/Investigativos/diretorio-recursos-onion.md)** - Catálogo completo Dark Web ⭐ **NOVO!**
 - **[POI - Reconhecimento Profundo](docs/Processos/Investigativos/A-Partir-de-uma-Pessoa-de-Interesse.md)** - Processo completo para perfis de interesse
 - **[Criação de Sock Puppet](docs/Processos/criacao-de-fantoche-sock-puppet.md)** - Personas para investigação
 - **[OSINT no Telegram](docs/Processos/Investigativos/osint-telegram-deanonimizacao-e-busca.md)** - Deanonimização e busca
@@ -45,7 +46,9 @@ Tutorial abrangente sobre Google Dorks para OSINT com:
 
 #### 🚀 **Técnicas Especializadas**
 - [OSINT no Telegram](docs/Processos/Investigativos/osint-telegram-deanonimizacao-e-busca.md)
-- [OSINT na Dark Web](docs/Processos/osint_darkweb_doc.md)
+- [OSINT na Dark Web](docs/Processos/osint_darkweb_doc.md) ⭐ **ATUALIZADO!**
+- [🧅 Diretório de Recursos Onion](docs/Processos/Investigativos/diretorio-recursos-onion.md) ⭐ **NOVO!**
+- [A partir de Evidências Dark Web](docs/Processos/Investigativos/A-Partir-de-Evidencias-Dark-Web.md) ⭐ **NOVO!**
 
 ### 🛠️ Recursos Práticos
 - **[checklists/](checklists/)** - Listas de verificação operacionais
