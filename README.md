@@ -3,80 +3,109 @@
 Repositório de documentação e treinamento focado em OSINT para fins defensivos, educacionais e de pesquisa autorizada. Todo o conteúdo deve respeitar leis locais e os Termos de Serviço das plataformas analisadas.
 
 ## 🚀 Recursos em Destaque
+- **[Workflows Visuais](docs/Processos/Investigativos/workflows.md)** — fluxos Mermaid com marcadores de confiança e timestamps
+- **[Google Dorks - Guia Completo](docs/Processos/Investigativos/google-dorks-guia-completo.md)** — 613 linhas de operadores categorizados e casos de uso
+- **[Tutorial OSINT para Iniciantes](docs/tutoriais/osint-para-iniciantes.md)** — guia completo do zero ao avançado
+- **[Trilha de Aprendizado Progressiva](docs/tutoriais/trilha-progressiva-osint.md)** — caminho estruturado de capacitação
+- **[10 Casos Práticos](docs/tutoriais/casos-praticos-iniciantes.md)** — exercícios com gabarito para praticar
 
-### 🔍 **[Google Dorks - Guia Completo](docs/Processos/Investigativos/google-dorks-guia-completo.md)** ⭐ **NOVO!**
-Tutorial abrangente sobre Google Dorks para OSINT com:
-- **613 linhas** de documentação técnica em português
-- **7 categorias** de dorks organizadas (configs, backups, APIs, credenciais, etc.)
-- **Casos de uso práticos** (auditoria, pentest, bug bounty)
-- **Dorks prontos** para uso imediato
-- **Aspectos legais e éticos** detalhados
-
-### 📋 **Recursos Essenciais**
-- **[Workflows Visuais](docs/Processos/Investigativos/workflows.md)** - 8 fluxos investigativos com diagramas Mermaid ⭐ **ATUALIZADO!**
-- **[🧅 Diretório Recursos Onion](docs/Processos/Investigativos/diretorio-recursos-onion.md)** - Catálogo completo Dark Web ⭐ **NOVO!**
-- **[POI - Reconhecimento Profundo](docs/Processos/Investigativos/A-Partir-de-uma-Pessoa-de-Interesse.md)** - Processo completo para perfis de interesse
-- **[Criação de Sock Puppet](docs/Processos/criacao-de-fantoche-sock-puppet.md)** - Personas para investigação
-- **[OSINT no Telegram](docs/Processos/Investigativos/osint-telegram-deanonimizacao-e-busca.md)** - Deanonimização e busca
-- **[Checklist OPSEC](checklists/checklist-opsec.md)** - Segurança operacional
+### 📊 O que você encontrará aqui
+- ✅ **37 guias práticos** cobrindo todas as áreas de OSINT
+- ✅ **8 workflows visuais** para diferentes pontos de partida
+- ✅ **100+ ferramentas** catalogadas com casos de uso
+- ✅ **Tutoriais estruturados** do básico ao avançado
+- ✅ **Foco educacional** com propósito ético e defensivo
 
 ---
 
 ## 📁 Estrutura do Repositório
 
-### 📚 Documentação Principal
+### 🎓 Para Iniciantes
+- **[Tutorial OSINT Completo](docs/tutoriais/osint-para-iniciantes.md)** — do zero ao primeiro caso prático
+- **[Trilha de Aprendizado](docs/tutoriais/trilha-progressiva-osint.md)** — evolução estruturada por níveis
+- **[10 Casos Práticos](docs/tutoriais/casos-praticos-iniciantes.md)** — exercícios progressivos com gabarito
+- **[Checklists OPSEC](checklists/checklist-opsec.md)** — segurança operacional essencial
+- **[Criação de Sock Puppet](checklists/checklist-criacao-sock-puppet.md)** — personas digitais seguras
 
-#### 🔍 **Técnicas de Busca Avançada**
-- **[Google Dorks - Guia Completo](docs/Processos/Investigativos/google-dorks-guia-completo.md)** ⭐
-  - 7 categorias de dorks organizadas
-  - Operadores avançados e combinações
-  - Casos de uso práticos e exemplos
-  - OPSEC e aspectos legais
+### 🔍 Workflows por Ponto de Partida
+- **[Workflows Visuais](docs/Processos/Investigativos/workflows.md)** — diagramas Mermaid interativos
+- [Domínio](docs/Processos/Investigativos/A-Partir-de-um-Dominio.md) • [Email](docs/Processos/Investigativos/A-Partir-de-um-Email.md) • [Localização](docs/Processos/Investigativos/A-Partir-de-uma-Localizacao.md)
+- [Nome Real](docs/Processos/Investigativos/A-Partir-de-um-Nome-Real.md) • [Telefone](docs/Processos/Investigativos/A-Partir-de-um-Telefone.md) • [Username](docs/Processos/Investigativos/A-Partir-de-um-Username.md)
+- [Pessoa de Interesse](docs/Processos/Investigativos/A-Partir-de-uma-Pessoa-de-Interesse.md) • [Evidências Dark Web](docs/Processos/Investigativos/A-Partir-de-Evidencias-Dark-Web.md)
 
-#### 🎯 **Workflows Investigativos por Ponto de Partida**
-- **[docs/Processos/Investigativos/](docs/Processos/Investigativos/)** - Metodologias sistemáticas
-  - [Workflows Visuais](docs/Processos/Investigativos/workflows.md) - Diagramas Mermaid dos 7 fluxos principais
-  - [A partir de Domínio](docs/Processos/Investigativos/A-Partir-de-um-Dominio.md)
-  - [A partir de Email](docs/Processos/Investigativos/A-Partir-de-um-Email.md)
-  - [A partir de Localização](docs/Processos/Investigativos/A-Partir-de-uma-Localizacao.md)
-  - [A partir de Nome Real](docs/Processos/Investigativos/A-Partir-de-um-Nome-Real.md)
-  - [A partir de Pessoa de Interesse (POI)](docs/Processos/Investigativos/A-Partir-de-uma-Pessoa-de-Interesse.md)
-  - [A partir de Telefone](docs/Processos/Investigativos/A-Partir-de-um-Telefone.md)
-  - [A partir de Username](docs/Processos/Investigativos/A-Partir-de-um-Username.md)
+### 🧭 Guias Especializados por Área
 
-#### 🚀 **Técnicas Especializadas**
+#### 👥 Identidades e Redes Sociais
+- [Pessoas e Redes Sociais](docs/Processos/Investigativos/pessoas-e-redes-sociais.md) — investigação em perfis e contas digitais
+- [Investigação de Phishing e E-mail](docs/Processos/Investigativos/investigacao-de-phishing-e-email.md) — análise de ameaças por email
+- [Assistentes de IA](docs/Processos/Investigativos/assistentes-ai-para-osint.md) — IA aplicada a investigações
+
+#### 🌐 Infraestrutura e Reconhecimento
+- [Infraestrutura de Domínios e IPs](docs/Processos/Investigativos/infraestrutura-de-dominios-e-ips.md) — mapeamento de ativos digitais
+- [Feeds de Inteligência](docs/Processos/Investigativos/feeds-de-inteligencia.md) — fontes automatizadas de CTI
+- [Automação e Reconhecimento](docs/Processos/Investigativos/automacao-e-reconhecimento.md) — ferramentas automatizadas
+- [Arquivamento e Cache](docs/Processos/Investigativos/arquivamento-e-cache.md) — preservação de evidências
+
+#### 📺 Mídia e Verificação
+- [Busca de Imagens e Reversa](docs/Processos/Investigativos/busca-de-imagens-e-reversa.md) — análise visual e metadados
+- [Análise de Vídeo](docs/Processos/Investigativos/analise-de-video.md) — verificação e geolocalização
+- [Monitoramento de Notícias](docs/Processos/Investigativos/monitoramento-de-noticias.md) — rastreamento de mídia
+- [Relatórios e Visualização](docs/Processos/Investigativos/relatorios-e-visualizacao.md) — apresentação de dados
+
+#### 🗺️ Domínios Especializados
+- [Monitoramento Aéreo](docs/Processos/Investigativos/monitoramento-aereo.md) — aviação e tráfego aéreo
+- [Monitoramento Marítimo](docs/Processos/Investigativos/monitoramento-maritimo.md) — embarcações e portos
+- [Geoespacial e Mapeamento](docs/Processos/Investigativos/geoespacial-e-mapeamento.md) — análise geográfica
+- [Dark Web e Leaks](docs/Processos/Investigativos/dark-web-e-leaks.md) — investigação em redes ocultas
+
+#### 📚 Pesquisa e Inteligência
+- [Buscadores e Meta Pesquisa](docs/Processos/Investigativos/buscadores-e-meta-pesquisa.md) — motores especializados
+- [Busca de Documentos e Arquivos](docs/Processos/Investigativos/busca-documentos-e-arquivos.md) — localização de arquivos
+- [Bases Acadêmicas e Pesquisa](docs/Processos/Investigativos/bases-academicas-e-pesquisa.md) — recursos científicos
+- [Malware e CTI](docs/Processos/Investigativos/malware-e-cti.md) — análise de ameaças e indicadores
+
+#### 🏢 Investigação Empresarial e Legal
+- [OSINT para Impacto Social](docs/Processos/Investigativos/osint-para-impacto-social.md) — investigações humanitárias
+- [Inteligência Empresarial](docs/Processos/Investigativos/inteligencia-empresarial.md) — pesquisa corporativa
+- [Registros Governamentais e Legais](docs/Processos/Investigativos/registros-governamentais-e-legais.md) — fontes oficiais
+- [Trilhas de Aprendizado](docs/Processos/Investigativos/trilhas-de-aprendizado-osint.md) — capacitação em OSINT
+
+### 🚀 Técnicas Especializadas
 - [OSINT no Telegram](docs/Processos/Investigativos/osint-telegram-deanonimizacao-e-busca.md)
-- [OSINT na Dark Web](docs/Processos/osint_darkweb_doc.md) ⭐ **ATUALIZADO!**
-- [🧅 Diretório de Recursos Onion](docs/Processos/Investigativos/diretorio-recursos-onion.md) ⭐ **NOVO!**
-- [A partir de Evidências Dark Web](docs/Processos/Investigativos/A-Partir-de-Evidencias-Dark-Web.md) ⭐ **NOVO!**
+- [OSINT na Dark Web](docs/Processos/osint_darkweb_doc.md)
+- [Diretório de Recursos Onion](docs/Processos/Investigativos/diretorio-recursos-onion.md)
+- [Guia Google Dorks](docs/Processos/Investigativos/google-dorks-guia-completo.md)
 
 ### 🛠️ Recursos Práticos
-- **[checklists/](checklists/)** - Listas de verificação operacionais
-  - [OPSEC](checklists/checklist-opsec.md) - Segurança operacional
-  - [Criação de Sock Puppet](checklists/checklist-criacao-sock-puppet.md) - Personas investigativas
-- **[docs/modelos/](docs/modelos/)** - Templates padronizados
-  - [Dossiê Investigativo](docs/modelos/dossie-investigativo.md) - Template completo para coleta
-
-### 📋 Guias Especializados
-- **[docs/Processos/](docs/Processos/)** - Processos técnicos específicos
-  - [Criação de Fantoche (Sock Puppet)](docs/Processos/criacao-de-fantoche-sock-puppet.md)
-  - [OSINT na Dark Web](docs/Processos/osint_darkweb_doc.md)
-- **[docs/finanças/](docs/finanças/)** - Investigação financeira
-  - [Locais de Compra de Cartões](docs/finanças/Locais-de-compras-de-cartoes.md)
+- **[Dossiê Investigativo](docs/modelos/dossie-investigativo.md)** — template completo para documentação
+- **[Processo de Sock Puppet](docs/Processos/criacao-de-fantoche-sock-puppet.md)** — criação de personas
+- **[Recursos Financeiros](docs/finanças/Locais-de-compras-de-cartoes.md)** — cartões e pagamentos anônimos
 
 ### 🖼️ Recursos Visuais
-- **[assets/images/workflows/](assets/images/workflows/)** - Fluxogramas dos workflows investigativos
+- **Workflows interativos** — diagramas Mermaid navegáveis
+- **Capturas anonimizadas** — exemplos práticos sem exposição de dados
 
+---
 
-## Como Usar
-- Siga o guia de criação de fantoche para personas isoladas e críveis.
-- Utilize os modelos para registrar coleta (Valor, Fonte, Data, Confiança).
-- Aplique as checklists de OPSEC antes, durante e após cada atividade.
+## 🚀 Como Começar
+
+### Para Iniciantes Absolutos
+1. **[Leia o Tutorial Completo](docs/tutoriais/osint-para-iniciantes.md)** — fundamentos e primeiras investigações
+2. **[Siga a Trilha Progressiva](docs/tutoriais/trilha-progressiva-osint.md)** — evolução estruturada por níveis
+3. **Configure ambiente seguro** usando os checklists de OPSEC
+4. **Pratique com casos reais** seguindo os workflows por ponto de partida
+
+### Para Investigadores Experientes
+1. **Escolha o workflow** conforme seu ponto de partida investigativo
+2. **Consulte os guias especializados** para técnicas avançadas
+3. **Use os templates** para documentar evidências sistematicamente
+4. **Mantenha OPSEC** durante todas as atividades
 
 ## Contribuição
 - Mantenha consistência de idioma (pt-BR), nomes de arquivos com hífens e links relativos.
-- Use convenções de commit padronizadas (Conventional Commits em pt-BR).
+- Use Conventional Commits em português (`docs: adiciona guia de monitoramento marítimo`).
+- Execute `npx markdownlint .` e `npx prettier -w "**/*.md"` antes de abrir PR.
 - Evite publicar PII real; anonimize exemplos e evidências (`case123_doc01.png`).
 
 ## Aviso Ético
-Conteúdo destinado exclusivamente a operações defensivas, educação e pesquisa autorizada. Não contribua com material que facilite uso malicioso ou viole privacidade/legislação.
+Conteúdo destinado exclusivamente a operações defensivas, educação e pesquisa autorizada. Não contribua com material que facilite uso malicioso ou viole privacidade/legislação. Consulte `CLAUDE.md` para decisões sensíveis e registre advertências de risco conforme necessário.
