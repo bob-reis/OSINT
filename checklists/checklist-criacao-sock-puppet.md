@@ -7,9 +7,11 @@
 - [ ] Escolher nome, data de nascimento e histórico coerente (usar geradores de identidade/fake ID).  
 - [ ] Criar e-mail seguro (Proton, Tutanota, RiseUp), alinhado ao país da persona quando fizer sentido.  
 - [ ] Configurar VM/container dedicado — idealmente uma VM por persona; nunca usar o SO pessoal.  
+- [ ] Avaliar uso de SO/ambiente orientado à privacidade (ex.: Qubes OS, Pop!_OS com criptografia total).  
+- [ ] Selecionar navegador endurecido (Tor Browser, LibreWolf, Brave) em perfil exclusivo para a persona.  
 - [ ] Ajustar idioma/teclado/timezone/localização da VM conforme a persona.  
-- [ ] Navegador “limpo” (sem extensões pessoais); minimizar fingerprint.  
 - [ ] Aplicar VPN estável; considerar Tor somente se crível para o contexto.  
+- [ ] Validar ambiente com testes não invasivos (BrowserLeaks, CoverYourTracks) antes da primeira operação.  
 - [ ] Definir gerenciador de senhas e 2FA compatíveis com o isolamento.  
 - [ ] Iniciar dossiê da persona (credenciais, datas, padrões) em `docs/modelos/dossie-investigativo.md`.  
 
@@ -30,6 +32,7 @@
 - [ ] Verificar nomes/aliases com NAMINT e disponibilidade de @usuários.  
 - [ ] Gerar fotos falsas (IA/geradores) ou usar objetos/abstratas; sempre remover EXIF.  
 - [ ] Aquecer a conta gradualmente (curtidas/comentários/seguidas ao longo de dias/semanas).  
+- [ ] Planejar cadência de conteúdo e interações críveis para a persona.  
 - [ ] Interagir em fóruns/grupos condizentes com o perfil.  
 - [ ] Usar padrões de escrita e horários compatíveis com a persona.  
 
@@ -70,6 +73,7 @@
 
 ## 8. OPSEC e Higiene
 - [ ] Nunca logar sock puppet em máquina pessoal.  
+- [ ] Registrar backstory, credenciais e interações em cofre isolado para evitar contradições.  
 - [ ] Revisar consistência de todas as informações.  
 - [ ] Sanitizar prints e arquivos antes de armazenar.  
 - [ ] Usar convenção de nomes neutros para evidências (`case123_img01.png`).  
