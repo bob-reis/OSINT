@@ -37,6 +37,7 @@ Repositório de documentação e treinamento focado em OSINT para fins defensivo
 
 #### 👥 Identidades e Redes Sociais
 - [Pessoas e Redes Sociais](docs/Processos/Investigativos/pessoas-e-redes-sociais.md) — investigação em perfis e contas digitais
+- [Investigação no LinkedIn](docs/Processos/Investigativos/linkedin-osint-investigacoes.md) — coleta e validação de inteligência profissional
 - [Investigação de Phishing e E-mail](docs/Processos/Investigativos/investigacao-de-phishing-e-email.md) — análise de ameaças por email
 - [Assistentes de IA](docs/Processos/Investigativos/assistentes-ai-para-osint.md) — IA aplicada a investigações
 
