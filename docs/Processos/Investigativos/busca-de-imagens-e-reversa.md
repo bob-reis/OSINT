@@ -17,7 +17,7 @@ Identificar origem, versões e autenticidade de imagens coletadas durante invest
 
 ## Extração de Metadados
 - [ExifTool](https://exiftool.org/) — CLI robusta para EXIF, IPTC e XMP.
-- [Jeffrey’s EXIF Viewer](http://exif.regex.info/exif.cgi) — análise rápida no navegador.
+- [Metadata Viewer](https://metadataremover.ai/metadata-viewer) — inspeção local no navegador de campos EXIF, GPS, IPTC e XMP.
 - [metapicz](https://www.metapicz.com/#landing) — visualização estruturada de metadados.
 
 ## Análise Forense
